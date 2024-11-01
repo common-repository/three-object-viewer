@@ -1,0 +1,40 @@
+{
+    "name": "three-object-viewer/sky-block",
+    "attributes": {
+        "skyUrl": {
+            "type": "string",
+            "default": null
+        },
+        "distance": {
+            "type": "int",
+            "default": 170000
+        },
+		"rayleigh": {
+			"type": "int",
+			"default": 1
+		},
+		"sunPositionX": {
+			"type": "int",
+			"default": 0
+		},
+		"sunPositionY": {
+			"type": "int",
+			"default": 10000
+		},
+		"sunPositionZ": {
+			"type": "int",
+			"default": -10000
+		}
+    },
+    "category": "design",
+    "parent":  [ "three-object-viewer/environment" ],
+    "apiVersion": 2,
+    "supports": {
+        "html": false,
+        "multiple": false
+    },
+    "textdomain": "three-object-viewer",
+    "editorScript": "file:../../build/block-sky-block.js",
+	"editorStyle": "file:../../build/block-sky-block.css",
+	"style": "file:../../build/block-sky-block.css"
+}

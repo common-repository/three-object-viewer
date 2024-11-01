@@ -1,0 +1,40 @@
+{
+    "name": "three-object-viewer/spawn-point-block",
+    "attributes": {
+        "positionX": {
+            "type": "int",
+            "default":0
+        },
+        "positionY": {
+            "type": "int",
+            "default":0
+        },
+        "positionZ": {
+            "type": "int",
+            "default":0
+        },
+        "rotationX": {
+            "type": "int",
+            "default":0
+        },
+        "rotationY": {
+            "type": "int",
+            "default":0
+        },
+        "rotationZ": {
+            "type": "int",
+            "default":0
+        }
+    },
+    "category": "design",
+    "parent":  [ "three-object-viewer/environment" ],
+    "apiVersion": 2,
+    "supports": {
+        "html": false,
+        "multiple": false
+    },
+    "textdomain": "three-object-viewer",
+    "editorScript": "file:../../build/block-spawn-point-block.js",
+	"editorStyle": "file:../../build/block-spawn-point-block.css",
+	"style": "file:../../build/block-spawn-point-block.css"
+}
